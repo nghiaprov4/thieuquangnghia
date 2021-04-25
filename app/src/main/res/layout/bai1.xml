@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="411dp"
+        android:layout_height="197dp"
+        android:background="#5A8726" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="409dp"
+        android:layout_height="599dp"
+        android:background="#E8E6E6"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="336dp"
+        android:layout_height="293dp"
+        android:background="@drawable/donalbg"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="230"
+        android:layout_height="31"
+        android:text="DONAL TRUMP"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="20"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="312"
+        android:layout_height="32"
+        android:text="Full Stack developer, Android UI"
+        android:textAlignment="center"
+        android:textColor="#494141"
+        android:textSize="17"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="312"
+        android:layout_height="32"
+        android:text="New York, USA"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="17"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="281"
+        android:layout_height="70"
+        android:text="Donal Trump is closely associated with\nthe sport of goft. As a real esta\n developer, Trump began acquiring and\n constructing golf courses in 199"
+        android:textAlignment="center"
+        android:textColor="#3A3131"
+        android:textSize="15"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="117dp"
+        android:layout_height="121dp"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:srcCompat="@drawable/donaltrum_1"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="72"
+        android:layout_height="40"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:text="9.8"
+        android:textAlignment="center"
+        android:textColor="#555151"
+        android:textSize="28"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="72"
+        android:layout_height="40"
+        android:layout_marginTop="52dp"
+        android:text="178"
+        android:textAlignment="center"
+        android:textColor="#555151"
+        android:textSize="28"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:layout_editor_absoluteX="279dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:text="rating"
+        android:textAlignment="center"
+        android:textColor="#776A6A"
+        android:textSize="17"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:text="projects"
+        android:textAlignment="center"
+        android:textColor="#776A6A"
+        android:textSize="17"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:layout_editor_absoluteX="288dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="130"
+        android:layout_height="49"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/vien"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="130"
+        android:layout_height="49"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/vien"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:layout_editor_absoluteX="256dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="113"
+        android:layout_height="30"
+        android:text="HIRE ME"
+        android:textAlignment="center"
+        android:textColor="#1ABD21"
+        android:textSize="17"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/textView18"
+        android:layout_width="113"
+        android:layout_height="30"
+        android:text="PORTFOLIO"
+        android:textColor="#D10D50"
+        android:textSize="17"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

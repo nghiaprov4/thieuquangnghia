@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="364dp"
+        android:layout_height="302dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="230"
+        android:layout_height="31"
+        android:text="DONAL TRUMP"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="20"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/textView3"
+        android:layout_width="312"
+        android:layout_height="32"
+        android:text="Full Stack developer, Android UI"
+        android:textColor="#494141"
+        android:textSize="17"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="281"
+        android:layout_height="70"
+        android:text="Donal Trump is closely associated with\nthe sport of goft. As a real esta\n developer, Trump began acquiring and\n constructing golf courses in 199"
+        android:textAlignment="center"
+        android:textColor="#3A3131"
+        android:textSize="15"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:background="@drawable/back"
+        android:id="@+id/textView5"
+        android:layout_width="412dp"
+        android:layout_height="170dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/donaltrum_1"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
